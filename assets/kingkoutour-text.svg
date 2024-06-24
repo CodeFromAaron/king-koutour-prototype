@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 248.32 49.67">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fdf9fa;
+        font-family: Higuen-Regular, Higuen;
+        font-size: 46.16px;
+      }
+
+      .cls-2 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-3 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.02em;
+      }
+    </style>
+  </defs>
+  <g id="Shapes">
+    <text class="cls-1" transform="translate(0 39.23) scale(.88 1)"><tspan class="cls-7" x="0" y="0">K</tspan><tspan class="cls-5" x="29.03" y="0">i</tspan><tspan class="cls-4" x="40.25" y="0">n</tspan><tspan class="cls-6" x="69.79" y="0">g </tspan><tspan class="cls-2" x="111.15" y="0">K</tspan><tspan class="cls-3" x="138.61" y="0">o</tspan><tspan x="165.57" y="0">u</tspan><tspan class="cls-3" x="192.06" y="0">to</tspan><tspan x="232.45" y="0">ur</tspan></text>
+  </g>
+</svg>

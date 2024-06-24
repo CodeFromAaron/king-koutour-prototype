@@ -1,0 +1,145 @@
+html, body {
+    overflow: hidden; /* Prevent scrolling */
+    height: 100vh; /* Set body height to full viewport height */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.container {
+    display: flex;
+    flex-direction: row; /* Arrange items horizontally */
+    justify-content: space-between; /* Add space between the boxes */
+    font-weight: bold;
+    text-align: center;
+    height: 100vh; /* Set container height to full viewport height */
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.box-1 {
+    flex: 1; /* Let the box grow to fill the available space */
+    padding: 20px; /* Add some space around the box */
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Arrange items vertically */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+}
+
+.box-2 {
+    flex: 2; /* Let the box grow to fill 2/3 of the available width */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+    position: relative;
+    margin-left: 5%;
+}
+
+.code-container{
+    position: absolute;
+    left: -22%;
+    top: -10%;
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+}
+
+/*King Logo Settings */
+.logo-container {
+    left: 10%;
+    text-align: left;
+    position: relative;
+    width: 70%; /* Or any width you want for the logo container */
+    margin-bottom: 20px; /* Add space below the logo container */
+}
+
+.logo {
+    width: 100%;
+    height: auto; /* Adjust the logo image size */
+}
+
+.logo-text {
+    position: absolute;
+    top: 48.8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Add any additional styling for .logo-text */
+    width: 78%;
+    height: auto;
+}
+
+/* Animations */
+.slanted-box {
+    position: absolute;
+    top: 0;
+    width: 150%;
+    height: 100%;
+}
+
+.slanted-box-1 {
+    background-color: #8c7a78;
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
+    left: 19%;
+}
+
+.slanted-box-2 {
+
+    background-color: #5d4440;
+    clip-path: polygon(15% 0, 100% 0, 80% 100%, 0% 100%);
+    left: 24%;
+}
+
+
+/* Define the floating animation */
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+}
+
+/* Apply the animation to the images */
+.item {
+    animation: float 5s ease-in-out infinite;
+    z-index: -1;
+}
+
+
+/*Navigation Box*/
+nav {
+    display: flex; /* Use flexbox for centering */
+    flex-direction: row; /* Arrange items horizontally */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+    text-align: center;
+    margin-top: 10px; /* Adjust the margin as needed */
+    margin-left: 15%;
+    font-family: 'Roboto', sans-serif; /* Use a different font */
+    font-size: large
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flexbox for centering */
+    flex-direction: row; /* Arrange items horizontally */
+}
+
+nav ul li {
+    margin-right: 20px; /* Adjust the spacing between menu items */
+    transition: all 0.3s ease; /* Add a smooth transition effect */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Set the color of the menu items */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Add a smooth color transition */
+}
+
+nav ul li a:hover {
+    color: #555; /* Set the color of the menu items on hover */
+}
+
+
